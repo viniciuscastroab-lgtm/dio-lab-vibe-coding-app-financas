@@ -9,7 +9,7 @@ Sistema de gestão financeira pessoal baseado em Inteligência Artificial Conver
 
 ## Demonstração
 
-![Dashboard do Saldoo](dashboard.png)
+dashboard.png
 
 O Saldoo foi desenvolvido com o objetivo de simplificar o controle financeiro através de uma experiência baseada em linguagem natural, permitindo que usuários registrem receitas, despesas, acompanhem metas financeiras e recebam orientações inteligentes de forma intuitiva.
 
