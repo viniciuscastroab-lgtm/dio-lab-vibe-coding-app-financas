@@ -1,89 +1,266 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# Saldoo
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+Sistema de gestão financeira pessoal baseado em Inteligência Artificial Conversacional e elementos de gamificação.
 
-## ✨ O que é Vibe Coding
+O Saldoo foi desenvolvido com o objetivo de simplificar o controle financeiro através de uma experiência baseada em linguagem natural, permitindo que usuários registrem receitas, despesas, acompanhem metas financeiras e recebam orientações inteligentes de forma intuitiva.
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+---
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+## Demonstração
 
-## 🎯 Desafio
+./screenshots/dashboard.png
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
+---
 
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
+## Sobre o Projeto
 
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
+Grande parte das pessoas abandona aplicativos financeiros porque eles exigem preenchimento manual constante, formulários extensos e pouca personalização.
 
-## 🪄 Etapas do Desafio
+O Saldoo busca resolver esse problema oferecendo uma experiência conversacional, onde o usuário interage com um assistente financeiro para registrar movimentações, visualizar informações financeiras e acompanhar objetivos pessoais.
 
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
+Além disso, o sistema utiliza conceitos de gamificação para incentivar hábitos financeiros mais saudáveis através de níveis, missões, conquistas e evolução pessoal.
 
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
+---
 
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
+## Principais Funcionalidades
 
-```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+### Registro Financeiro por Conversa
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+O usuário pode registrar movimentações utilizando linguagem natural.
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+Exemplos:
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+```text
+Recebi salário de R$ 5.000
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
+Ganhei R$ 750 de freelance
+
+Gastei R$ 45 no mercado
+
+Uber R$ 18
 ```
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+---
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+### Gestão de Receitas
 
-### 2. Explorando o Lovable na Prática
+Categorias de entrada:
 
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+- Salário
+- Benefícios
+- Vale Alimentação
+- Vale Refeição
+- Auxílio Combustível
+- Freelancer
+- Diárias
+- Investimentos
+- Aluguéis
+- Outros
 
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
+---
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+### Gestão de Despesas
 
-### 3. Entregando o Desafio na DIO
+Classificação automática das despesas:
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+- Alimentação
+- Transporte
+- Moradia
+- Saúde
+- Educação
+- Compras
+- Lazer
+- Assinaturas
+- Investimentos
+- Outros
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+---
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+### Cofres Financeiros
 
-## 💬 Conclusão
+O sistema permite a criação de reservas financeiras para objetivos específicos.
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+Exemplos:
+
+- Reserva de Emergência
+- Viagem
+- Casa Própria
+- Novo Veículo
+- Estudos
+
+Exemplo de uso:
+
+```text
+Criar reserva viagem com meta de R$ 5.000
+```
+
+Regra implementada:
+
+Quando um valor é transferido para um Cofre, ele deixa de fazer parte do saldo disponível principal.
+
+Exemplo:
+
+```text
+Saldo disponível: R$ 3.000
+
+Transferência para Cofre Viagem: R$ 500
+
+Novo saldo disponível: R$ 2.500
+
+Cofre Viagem: R$ 500 / R$ 5.000
+```
+
+Essa abordagem simula de forma mais realista a separação do dinheiro destinado aos objetivos financeiros.
+
+---
+
+### Gamificação
+
+O Saldoo transforma a organização financeira em uma jornada de evolução.
+
+Recursos:
+
+- Sistema de XP
+- Sistema de níveis
+- Missões diárias
+- Missões semanais
+- Conquistas
+- Progressão financeira
+
+Exemplos de níveis:
+
+- Aprendiz Financeiro
+- Organizador de Orçamento
+- Investidor Iniciante
+- Estrategista Financeiro
+- Lenda Financeira
+
+---
+
+### Chefes Financeiros
+
+O sistema identifica automaticamente gastos recorrentes.
+
+Exemplos:
+
+- Netflix
+- Spotify
+- Amazon Prime
+- Academia
+- Internet
+- Plano de Saúde
+
+Esses gastos são apresentados como "Chefes Financeiros", permitindo ao usuário visualizar melhor o impacto dos custos fixos em seu orçamento.
+
+---
+
+### Indicadores Financeiros
+
+- Saúde Financeira
+- Taxa de Economia
+- Índice de Evolução
+- Índice de Impulsividade
+- Estabilidade Financeira
+
+---
+
+## Tecnologias Utilizadas
+
+- React
+- TypeScript
+- Tailwind CSS
+- Supabase
+- Shadcn/UI
+- OpenAI (estrutura preparada para integração)
+- Vercel
+
+---
+
+## Processo de Construção com IA
+
+O projeto foi desenvolvido utilizando Inteligência Artificial como apoio para definição de produto, refinamento de requisitos e evolução das funcionalidades.
+
+Durante a criação do Saldoo foi utilizado um processo iterativo de engenharia de prompts para transformar a ideia inicial em um produto mais completo e estruturado.
+
+A IA auxiliou na definição de:
+
+- Estrutura do MVP
+- Funcionalidades principais
+- Sistema de gamificação
+- Fluxos de navegação
+- Cofres financeiros
+- Detecção de gastos recorrentes
+- Perfis de agentes financeiros
+- Experiência conversacional
+
+---
+
+## Prompt Utilizado
+
+O desenvolvimento do projeto foi orientado por um prompt detalhado que descrevia o Saldoo como um Copiloto Financeiro Conversacional Gamificado.
+
+O prompt incluiu requisitos como:
+
+- Registro de receitas e despesas por linguagem natural
+- Agentes financeiros inteligentes
+- Sistema de níveis e XP
+- Missões e conquistas
+- Detecção de gastos recorrentes
+- Gestão de metas através de Cofres Financeiros
+- Interface inspirada em sistemas de progressão presentes em jogos de gerenciamento de recursos
+
+Durante os testes também foi solicitado ao copiloto:
+
+```text
+Criar reserva viagem com meta de R$ 5.000
+```
+
+com o objetivo de validar a interpretação de metas financeiras por meio de linguagem natural.
+
+---
+
+## Reflexão Sobre o Processo
+
+### O que funcionou bem
+
+A utilização de Inteligência Artificial durante o planejamento e refinamento dos requisitos permitiu expandir significativamente a proposta inicial do projeto.
+
+Foi possível identificar rapidamente novas funcionalidades, melhorar a experiência do usuário e estruturar um produto mais completo antes mesmo da implementação.
+
+Além disso, a IA contribuiu para transformar um simples aplicativo de controle financeiro em uma plataforma com elementos de educação financeira e gamificação.
+
+---
+
+### O que não funcionou como esperado
+
+Durante os testes foi solicitado ao assistente:
+
+```text
+Criar reserva viagem com meta de R$ 5.000
+```
+
+A expectativa era que o sistema identificasse automaticamente a intenção de criar uma nova meta financeira.
+
+Entretanto, o comportamento observado indicou que o assistente estava preparado apenas para registrar gastos e receitas, solicitando informações sobre valores, categorias e despesas já realizadas.
+
+Esse cenário demonstrou a importância de definir melhor os fluxos de intenção e o contexto das interações quando se trabalha com IA conversacional.
+
+---
+
+### O que aprendi sobre conversar com IAs
+
+O principal aprendizado foi que a qualidade dos resultados está diretamente relacionada à qualidade das instruções fornecidas.
+
+Durante a construção do projeto ficou evidente que:
+
+- Prompts mais específicos geram resultados melhores.
+- Refinamentos sucessivos melhoram significativamente a qualidade das respostas.
+- A IA é extremamente eficiente para brainstorming e validação de ideias.
+- Contexto é fundamental para reduzir ambiguidades.
+- Testes em cenários reais ajudam a identificar limitações e oportunidades de melhoria.
+
+---
+
+## Objetivo
+
+O Saldoo busca tornar a educação financeira mais acessível através da combinação entre Inteligência Artificial, experiência conversacional e gamificação, incentivando a construção de hábitos financeiros saudáveis de maneira simples e intuitiva.
