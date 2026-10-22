@@ -11,12 +11,6 @@ O Saldoo foi desenvolvido com o objetivo de simplificar o controle financeiro at
 
 ---
 
-## Demonstração
-
-./screenshots/dashboard.png
-
----
-
 ## Sobre o Projeto
 
 Grande parte das pessoas abandona aplicativos financeiros porque eles exigem preenchimento manual constante, formulários extensos e pouca personalização.
