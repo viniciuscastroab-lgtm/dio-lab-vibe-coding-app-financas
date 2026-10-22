@@ -1,4 +1,9 @@
+
 # Saldoo
+
+<p align="center">
+  <img src="dashboard.png" alt="Dashboard do Saldoo" width="900">
+</p>
 
 Sistema de gestão financeira pessoal baseado em Inteligência Artificial Conversacional e elementos de gamificação.
 
