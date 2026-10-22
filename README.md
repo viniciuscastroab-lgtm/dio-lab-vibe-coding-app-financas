@@ -15,6 +15,18 @@ O Saldoo foi desenvolvido com o objetivo de simplificar o controle financeiro at
 
 ---
 
+## Contexto do Projeto
+
+Este projeto foi desenvolvido como parte de um desafio da DIO (Digital Innovation One) com foco em aprendizado de Vibecoding, prototipação rápida e utilização de Inteligência Artificial no processo de desenvolvimento de software.
+
+O desafio propunha a criação de uma aplicação utilizando IA como ferramenta de apoio para definição de requisitos, geração de ideias e construção do produto.
+
+A proposta inicial foi fornecida durante o desafio, mas o projeto foi refinado ao longo do processo de desenvolvimento com novas ideias, funcionalidades e regras de negócio adicionadas por iniciativa própria, resultando na criação do Saldoo.
+
+É importante destacar que esta aplicação se encontra em fase inicial de desenvolvimento (MVP) e foi construída com fins educacionais e de experimentação. Diversas funcionalidades ainda podem ser evoluídas, refinadas e melhor estruturadas em versões futuras.
+
+---
+
 ## Sobre o Projeto
 
 Grande parte das pessoas abandona aplicativos financeiros porque eles exigem preenchimento manual constante, formulários extensos e pouca personalização.
@@ -267,3 +279,26 @@ Durante a construção do projeto ficou evidente que:
 ## Objetivo
 
 O Saldoo busca tornar a educação financeira mais acessível através da combinação entre Inteligência Artificial, experiência conversacional e gamificação, incentivando a construção de hábitos financeiros saudáveis de maneira simples e intuitiva.
+
+---
+
+## Próximos Passos
+
+Algumas melhorias planejadas para futuras versões:
+
+- Aprimorar a interpretação de metas financeiras por linguagem natural.
+- Melhorar o fluxo conversacional do copiloto financeiro.
+- Expandir os indicadores de saúde financeira.
+- Melhorar a gestão de cofres e objetivos financeiros.
+- Adicionar autenticação de usuários.
+- Implementar histórico financeiro persistente.
+- Evoluir as recomendações inteligentes geradas pela IA.
+- Publicar novas versões com foco em experiência do usuário e acessibilidade.
+
+---
+
+## Considerações Finais
+
+Este projeto representa um estudo prático sobre desenvolvimento assistido por Inteligência Artificial, UX conversacional e gamificação aplicada à educação financeira.
+
+O objetivo principal não foi criar um produto finalizado, mas explorar novas formas de construção de software utilizando IA como parceira no processo de ideação, refinamento de requisitos e prototipação.
