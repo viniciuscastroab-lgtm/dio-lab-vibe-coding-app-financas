@@ -1,11 +1,15 @@
-
 # Saldoo
 
-<p align="center">
-  <img src="dashboard.png" alt="Dashboard do Saldoo" width="900">
-</p>
+Sistema de gestão financeira pessoal baseado em Inteligência Artificial Conversacional e Gamificação.
 
-Sistema de gestão financeira pessoal baseado em Inteligência Artificial Conversacional e elementos de gamificação.
+## Links
+
+- **Aplicação:** https://screenshot-to-silk-94.lovable.app
+- **Repositório:** https://github.com/viniciuscastroab-lgtm/dio-lab-vibe-coding-app-financas
+
+## Demonstração
+
+![Dashboard do Saldoo](dashboard.png)
 
 O Saldoo foi desenvolvido com o objetivo de simplificar o controle financeiro através de uma experiência baseada em linguagem natural, permitindo que usuários registrem receitas, despesas, acompanhem metas financeiras e recebam orientações inteligentes de forma intuitiva.
 
