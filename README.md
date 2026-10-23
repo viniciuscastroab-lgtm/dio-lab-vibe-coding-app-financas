@@ -17,13 +17,7 @@ O Saldoo foi desenvolvido com o objetivo de simplificar o controle financeiro at
 
 ## Contexto do Projeto
 
-Este projeto foi desenvolvido como parte de um desafio da DIO (Digital Innovation One) com foco em aprendizado de Vibecoding, prototipação rápida e utilização de Inteligência Artificial no processo de desenvolvimento de software.
-
-O desafio propunha a criação de uma aplicação utilizando IA como ferramenta de apoio para definição de requisitos, geração de ideias e construção do produto.
-
-A proposta inicial foi fornecida durante o desafio, mas o projeto foi refinado ao longo do processo de desenvolvimento com novas ideias, funcionalidades e regras de negócio adicionadas por iniciativa própria, resultando na criação do Saldoo.
-
-É importante destacar que esta aplicação se encontra em fase inicial de desenvolvimento (MVP) e foi construída com fins educacionais e de experimentação. Diversas funcionalidades ainda podem ser evoluídas, refinadas e melhor estruturadas em versões futuras.
+O projeto foi desenvolvido aplicando o conceito de **Vibe Coding**, utilizando o **Microsoft Copilot** para auxílio na arquitetura de prompts e definição do PRD/requisitos, e o **Lovable** para a geração acelerada da interface e prototipagem do código em React.
 
 ---
 
@@ -127,6 +121,8 @@ Cofre Viagem: R$ 500 / R$ 5.000
 
 Essa abordagem simula de forma mais realista a separação do dinheiro destinado aos objetivos financeiros.
 
+Nota de escopo no MVP: A lógica de dedução de saldo dos cofres já está implementada na interface/estado da aplicação. A criação e movimentação de cofres via linguagem natural (chat) está mapeada e em fase de refinamento dos prompts do agente.
+
 ---
 
 ### Gamificação
@@ -154,7 +150,7 @@ Exemplos de níveis:
 
 ### Chefes Financeiros
 
-O sistema identifica automaticamente gastos recorrentes.
+O sistema permite mapear e visualizar gastos recorrentes (como assinaturas e mensalidades) sob a metáfora de "Chefes Financeiros", facilitando o combate aos custos fixos no orçamento.
 
 Exemplos:
 
@@ -181,13 +177,12 @@ Esses gastos são apresentados como "Chefes Financeiros", permitindo ao usuário
 
 ## Tecnologias Utilizadas
 
-- React
+- React + Vite
 - TypeScript
-- Tailwind CSS
-- Supabase
-- Shadcn/UI
-- OpenAI (estrutura preparada para integração)
-- Vercel
+- Tailwind CSS + Shadcn/UI
+- Lovable.app (Plataforma de prototipagem e hospedagem)
+- Supabase (Estruturado para futura persistência de dados)
+- OpenAI API (Estrutura mapeada para integração do agente)
 
 ---
 
@@ -286,14 +281,11 @@ O Saldoo busca tornar a educação financeira mais acessível através da combin
 
 Algumas melhorias planejadas para futuras versões:
 
-- Aprimorar a interpretação de metas financeiras por linguagem natural.
-- Melhorar o fluxo conversacional do copiloto financeiro.
-- Expandir os indicadores de saúde financeira.
-- Melhorar a gestão de cofres e objetivos financeiros.
-- Adicionar autenticação de usuários.
-- Implementar histórico financeiro persistente.
-- Evoluir as recomendações inteligentes geradas pela IA.
-- Publicar novas versões com foco em experiência do usuário e acessibilidade.
+- Aprimorar o prompt do sistema para interpretar intenções de criação de Cofres e Metas por linguagem natural.
+- Conectar a API da OpenAI para respostas dinâmicas em tempo real no chat.
+- Ativar a persistência de dados e a autenticação de usuários via Supabase.
+- Expandir os indicadores visuais de saúde financeira e gamificação.
+- Publicar atualizações de UX/UI com foco em acessibilidade mobile.
 
 ---
 
